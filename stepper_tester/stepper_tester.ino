@@ -21,7 +21,7 @@ void loop() {
     digitalWrite(stepPin,LOW); 
     delayMicroseconds(500); 
   }
-  delay(1000); // One second delay
+  /*delay(1000); // One second delay
   
   digitalWrite(dirPin,LOW); //Changes the rotations direction
   // Makes 400 pulses for making two full cycle rotation
@@ -30,6 +30,6 @@ void loop() {
     delayMicroseconds(500);
     digitalWrite(stepPin,LOW);
     delayMicroseconds(500);
-  }
-  delay(1000);
+//  }*/
+  //delay(1000);
 }
